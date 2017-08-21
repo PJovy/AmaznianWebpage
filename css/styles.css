@@ -5,15 +5,20 @@ http://www.bootstrapzero.com
 
 */
 
-@import url(https://fonts.googleapis.com/css?family=Questrial);
-@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+
+
 @font-face{
     font-family: 'aquafont';
     src: url('fonts/aqua.eot'),
     url('fonts/aqua.ttf'),
-    url('fonts/aqua.eot');
+    url('fonts/aqua.woff');
 }
-
+@font-face{
+    font-family: 'Questrial';
+    src: url('fonts/Questrial.eot'),
+    url('fonts/Questrial.ttf'),
+    url('fonts/Questrial.woff');
+}
 
 html,
 body {
@@ -125,7 +130,7 @@ p {
 }
 */
 .cursive {
-    font-family: 'aquafont',cursive;
+    font-family: 'Questrial',cursive;
     text-transform: none;
 }
 .text-faded {
